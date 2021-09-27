@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background: transparent;
+    text-align: center;
+}
+
+.talk {
+    width: 100px;
+    height: 35px;
+    tranform: translate(-50%, 0);
+    align-self: center;
+    /* margin-top: 356px; */
+    position: absolute;
+    top: 50%;
+    background-color: #26c2f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #004a61;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+
+}
+
+.talk:focus {
+    outline: none;
+}
